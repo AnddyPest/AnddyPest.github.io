@@ -24,26 +24,16 @@
     height: 250px;
     width:1500px;
     background: black;
-    background: linear-gradient(137deg, rgb(169, 221, 241),rgb(87, 183, 87));
+    border: 3px solid transparent;
+    border-image: linear-gradient(to right, rgb(169, 221, 241),rgb(87, 183, 87))1;
     
-    border-radius: 30px;
+    
     filter: drop-shadow(0px 0px 30px rgb(78, 231, 116));
     
    
 
     
 }
-.header::after {
-    content: '';
-    background-color: black;
-    position: absolute;
-    z-index: 1;
-    height: 246px;
-    width: 1596;
-    top: 2px;
-    left: 2px;
-    right: 2px;
-    border-radius: 28px;
-  }
+
   
       
