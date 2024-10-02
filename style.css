@@ -5,6 +5,7 @@
     background: linear-gradient(45deg, rgb(120, 213, 241), black, rgb(142, 239, 142));
     background-size: 600%, 600%;
     animation: gradientAnimation 10s infinite;
+    animation-fill-mode: forwards;
 }
 @keyframes gradientAnimation {
     0%{
