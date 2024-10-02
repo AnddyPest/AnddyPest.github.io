@@ -4,7 +4,7 @@
     width: 100vw;
     background: linear-gradient(45deg,rgb(169, 221, 241), black, rgb(87, 183, 87), black,rgb(169, 221, 241));
     background-size: 600%, 600%;
-    animation: gradientAnimation 10s infinite alternate;
+    animation: gradientAnimation 18s infinite alternate;
     animation-fill-mode: both;
     
     
