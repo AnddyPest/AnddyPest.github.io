@@ -54,6 +54,7 @@ body{
 
 }
 
+
 .header {
     display: flex;
     height: 130px;
@@ -62,9 +63,10 @@ body{
     width:97.8vw;
     padding: 15px;
     margin-top: -3px;
-    background: linear-gradient(black,rgb(16, 73, 130),black);
+    background: linear-gradient(rgb(255, 255, 255),rgb(18, 83, 149),rgb(240, 240, 240),2px);
+    animation: 18s gradientAnimation2 infinite;
     border: 3px solid transparent;
-    border-image: linear-gradient(to right, rgb(169, 221, 241),rgb(87, 183, 87))1;
+   
     filter: drop-shadow(0px 0px 30px rgb(78, 231, 116));
     }
 .header .logo img{
@@ -79,13 +81,7 @@ body{
     margin-right: 60px;
 }
 
-.footer {
-    display: flex;
-    height: 250px;
-    width: 100vw;
-    background: black;
-    filter: drop-shadow(0px 0px 30px rgb(78, 231, 116));
-}
+
 .body{
     display: flex;
     flex-direction: row;
