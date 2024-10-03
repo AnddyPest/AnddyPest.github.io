@@ -1,4 +1,4 @@
- HEAD
+
 header{
     display: flex;
     justify-content: space-between;
@@ -41,13 +41,27 @@ body{
 
 .header {
     display: flex;
-    height: 250px;
+    height: 130px;
+    justify-content: flex-start;
+    align-items: center;
     width:100vw;
+    padding: 15px;
     background: black;
     border: 3px solid transparent;
     border-image: linear-gradient(to right, rgb(169, 221, 241),rgb(87, 183, 87))1;
     filter: drop-shadow(0px 0px 30px rgb(78, 231, 116));
     }
+.header .logo img{
+    margin-top: 8px;
+    width: 140px;
+    height: 140px;    
+    border-radius: 100px;
+}
+.titulo {
+    font-family: 'Speedlimit-italic';
+    padding: 20px;
+    margin-right: 60px;
+}
 
 .footer {
     display: flex;
