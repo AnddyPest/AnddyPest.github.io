@@ -25,7 +25,7 @@ body{
     background-size: 600%, 600%;
     animation: gradientAnimation 18s infinite alternate;
     animation-fill-mode: both;
-    margin: -8px;
+    
     
     
 }
@@ -44,7 +44,7 @@ body{
     height: 130px;
     justify-content: flex-start;
     align-items: center;
-    width:100vw;
+    width:97.8vw;
     padding: 15px;
     background: black;
     border: 3px solid transparent;
@@ -96,3 +96,8 @@ body{
     font-family: 'Speedlimit-bold';
     src: url('fonts/SpeedLimitDemoBold.ttf');
 }
+.header-style {
+    font-family: 'Speedlimit';
+    background-image: linear-gradient(90deg, red, orange, black);
+    animation: gradientAnimation 5s infinite alternate;
+} 
