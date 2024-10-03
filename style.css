@@ -98,6 +98,8 @@ body{
 }
 .header-style {
     font-family: 'Speedlimit';
-    background-image: linear-gradient(90deg, red, orange, black);
+    background-image: linear-gradient(red, orange, black);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     animation: gradientAnimation 5s infinite alternate;
 } 
