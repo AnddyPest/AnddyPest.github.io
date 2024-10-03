@@ -112,3 +112,10 @@ body{
     font-family: 'Speedlimit-bold';
     src: url('fonts/SpeedLimitDemoBold.ttf');
 }
+.header-style {
+    font-family: 'Speedlimit';
+    background-image: linear-gradient(red, orange, black);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradientAnimation 5s infinite alternate;
+} 
