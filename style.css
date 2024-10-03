@@ -1,17 +1,45 @@
 
 
+nav ul{
+    display: flex;
+    list-style: none;
+    
+}
+nav ul li {
+    margin: 10px;
+    list-style: none;
+    
+}
+nav ul li a {
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 30px;
+    transition: 1s;
+    margin-left: 80px;
+    margin-right: 200px;
+    border-bottom: 1.5px solid rgb(9, 222, 255);
+}
+nav ul li a:hover{
+    font-size: 50px;
+    color:rgb(255, 255, 255);
+    border-bottom: 1px double rgb(255, 255, 9);
+    transition: 0.8s;
+}
+
+body{
+    margin: 0;
+}
+
+
 .flex-container {
     display: flex;
     flex-direction: column;
-    flex-direction: row;
-    
     height: 100vh;
     width: 100vw;
     background: linear-gradient(45deg,rgb(169, 221, 241), black, rgb(87, 183, 87), black,rgb(169, 221, 241));
     background-size: 300%, 300%;
     animation: gradientAnimation 18s infinite alternate;
     animation-fill-mode: both;
-    
     
     
     
@@ -29,27 +57,28 @@
 
 .header {
     display: flex;
-    flex-direction: row;
     height: 130px;
     justify-content: flex-start;
     align-items: center;
-    width: 100vw;
-    padding-top: 2%;
-    padding-left: 2%;
-    
-    
+    width:97.8vw;
+    padding: 15px;
+    margin-top: -3px;
+    background: linear-gradient(rgb(255, 255, 255),rgb(18, 83, 149),rgb(240, 240, 240),2px);
+    animation: 18s gradientAnimation2 infinite;
+    border: 3px solid transparent;
    
+    filter: drop-shadow(0px 0px 30px rgb(78, 231, 116));
     }
 .header .logo img{
-    margin-top: 1vw;
+    margin-top: 8px;
     width: 140px;
     height: 140px;    
     border-radius: 100px;
 }
 .titulo {
     font-family: 'Speedlimit-italic';
-    padding: 2%;
-    margin-right: 10%;
+    padding: 20px;
+    margin-right: 60px;
 }
 
 .quienesSomos{
@@ -63,9 +92,9 @@
     
 }
 
-.cuerpo{
+.body{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     height: 100%;
     width: 100vw;
     background: transparent;
@@ -90,37 +119,3 @@
     src: url('fonts/SpeedLimitDemoBold.ttf');
 }
 
-
-
-nav ul{
-    display: flex;
-    list-style: none;
-    
-}
-nav ul li {
-    
-    list-style: none;
-    
-}
-nav ul li a {
-    color:rgb(255, 255, 255);
-    text-decoration: none;
-    font-size: 30px;
-    transition: 1s;
-    margin-left: 3vw;
-    margin-right: 11vw;
-    border-bottom: 1.5px solid rgb(9, 222, 255);
-}
-nav ul li a:hover{
-    font-size: 50px;
-    color:rgb(255, 255, 255);
-    border-bottom: 1px double rgb(255, 255, 9);
-    transition: 0.8s;
-}
-
-body{
-    
-    margin-left: auto;
-    margin-top: auto;
-    margin-right: 0;
-}
