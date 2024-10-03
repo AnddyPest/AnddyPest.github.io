@@ -41,7 +41,26 @@
 .body{
     display: flex;
     flex-direction: row;
-    height: 100vh;
+    height: 100%;
     width: 100vw;
     background: transparent;
+}
+.titles {
+   font-family: 'Speedlimit-italic';
+    
+    
+    color: rgb(191, 249, 249);
+}
+@font-face {
+    font-family: 'Speedlimit';
+    src: url('fonts/SpeedLimitDemoRegular.ttf');
+    
+}
+@font-face {
+    font-family: 'Speedlimit-italic';
+    src: url('fonts/SpeedLimitDemoItalic.ttf');
+}
+@font-face {
+    font-family: 'Speedlimit-bold';
+    src: url('fonts/SpeedLimitDemoBold.ttf');
 }
