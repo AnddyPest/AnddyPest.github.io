@@ -11,7 +11,7 @@ body{
     background-size: 600%, 600%;
     animation: gradientAnimation 18s infinite alternate;
     animation-fill-mode: both;
-    margin: -8px;
+    
     
     
 }
