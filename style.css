@@ -39,8 +39,8 @@ body{
     flex-direction: column;
     height: 140vh;
     width: 120%;
-    background: linear-gradient(45deg,rgb(169, 221, 241), black, rgb(87, 183, 87), black,rgb(169, 221, 241));
-    background-size: 300%, 300%;
+    background: linear-gradient(45deg,rgb(169, 221, 241), black, rgb(144, 199, 144), black, rgb(169, 221, 241), black, rgb(144, 199, 144));
+    background-size: 200%, 200%;
     animation: gradientAnimation 18s infinite alternate;
     animation-fill-mode: both;
     
