@@ -26,6 +26,7 @@ nav > div > a:hover{
     border-bottom: 1px double rgb(255, 255, 9);
     transition: 0.8s;
     font-family: 'Speedlimit-bold';
+    text-shadow: 2px 2px 5px red;
 }
 
 body{
@@ -36,7 +37,7 @@ body{
 .flex-container {
     display: flex;
     flex-direction: column;
-    height: 120%;
+    height: 140%;
     width: 120%;
     background: linear-gradient(45deg,rgb(169, 221, 241), black, rgb(87, 183, 87), black,rgb(169, 221, 241));
     background-size: 300%, 300%;
