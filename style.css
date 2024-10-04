@@ -47,6 +47,19 @@ body{
     
     
 }
+.flex-containerPlanes {
+    display: flex;
+    flex-direction: column;
+    height: 140vh;
+    width: 120%;
+    background: linear-gradient(-45deg,rgb(214, 3, 3), black, rgb(214, 3, 3),  rgb(11, 15, 17), black, rgb(214, 3, 3));
+    background-size: 200%, 200%;
+    animation: gradientAnimation 18s infinite alternate;
+    animation-fill-mode: both;
+    
+    
+    
+}
 @keyframes gradientAnimation {
     0%{
         background-position: 0% 50%;
@@ -152,7 +165,7 @@ body{
     justify-content: center;
 }
 .text-quienes img{
-    opacity: 0.1;
+    opacity: 0.2;
     height: 70% ;
     width: 80%;
     border-radius: 20px;
