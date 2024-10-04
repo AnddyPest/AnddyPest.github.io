@@ -117,4 +117,17 @@ body{
     font-family: 'Speedlimit-bold';
     src: url('fonts/SpeedLimitDemoBold.ttf');
 }
+.text-quienes{
+    color: white;
+    text-shadow: 0px 0px 5px red;
+    text-wrap: balance;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    height: max-content;
+    width: 40%;
+    line-height: 40px;
+    border-left: solid 2px;
+    border-color: cadetblue;
+    padding-left: 1%;
+}
 
