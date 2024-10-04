@@ -63,7 +63,7 @@ body{
     height: 130px;
     justify-content: flex-start;
     align-items: center;
-    width:max-content;
+    
     padding: 15px;
    }
 .header .logo img{
@@ -80,9 +80,10 @@ body{
 
 .quienesSomos{
     display: flex;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: -50px;
     
 }
 .quienesSomos > h3{
