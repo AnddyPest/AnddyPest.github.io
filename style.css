@@ -37,7 +37,7 @@ body{
 .flex-container {
     display: flex;
     flex-direction: column;
-    height: 140%;
+    height: 140vh;
     width: 120%;
     background: linear-gradient(45deg,rgb(169, 221, 241), black, rgb(87, 183, 87), black,rgb(169, 221, 241));
     background-size: 300%, 300%;
