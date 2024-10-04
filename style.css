@@ -77,19 +77,31 @@ body{
     padding: 20px;
     margin-right: 60px;
 }
+.titulo h1{
+    color: whitesmoke; 
+    font-family: 'Speedlimit'; 
+    text-shadow: 2px 2px 5px red;
+}
 
 .quienesSomos{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: -50px;
+    margin-top: -50px; 
     
 }
 .quienesSomos > h3{
     font-size: 55px;
     rotate: 180deg;
     font-family: 'Speedlimit-bold';    
+    color: whitesmoke; 
+    writing-mode: vertical-rl; 
+    letter-spacing: 6px; 
+    text-shadow: 2px 2px 5px red;
+}
+#tituloInternet{
+    font-size: 40px;
 }
 
 .body{
@@ -120,6 +132,7 @@ body{
     src: url('fonts/SpeedLimitDemoBold.ttf');
 }
 .text-quienes{
+    
     display: flex;
     flex-direction: column;
     color: white;
@@ -132,9 +145,21 @@ body{
     width: 40%;
     line-height: 40px;
     border-left: solid 2px;
+    border-right: solid 2px;
     border-color: cadetblue;
     padding-left: 1%;
     align-items: center;
     justify-content: center;
 }
-
+.text-quienes img{
+    opacity: 0.1;
+    height: 70% ;
+    width: 80%;
+    border-radius: 20px;
+    transition: 1s;
+}
+.text-quienes img:hover{
+    opacity: 10;
+    box-shadow: white 0px 0px 50px 10px;
+    transition: 1s;
+}
