@@ -52,7 +52,7 @@ body{
     flex-direction: column;
     height: 140vh;
     width: 120%;
-    background: linear-gradient(-45deg,rgb(214, 3, 3), black, rgb(214, 3, 3),  rgb(11, 15, 17), black, rgb(214, 3, 3));
+    background: linear-gradient(-45deg,rgb(169, 221, 241), black, rgb(214, 3, 3),  rgb(11, 15, 17), black, rgb(214, 3, 3));
     background-size: 200%, 200%;
     animation: gradientAnimation 18s infinite alternate;
     animation-fill-mode: both;
