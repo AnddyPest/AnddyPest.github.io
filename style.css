@@ -127,10 +127,12 @@ body {
     letter-spacing: 6px; 
     text-shadow: 2px 2px 5px red;
 }
-#tituloInternet{
+#tituloInternet,#Oficinas{
     font-size: 40px;
 }
-
+#Oficinas{
+    margin-left: 20px;
+}
 .SeccionQuienes{
     display: flex;
     flex-direction: row;    
@@ -162,7 +164,7 @@ body {
 .quienesSomos .text-quienes,.tituloQuienes{
     
     display: flex;
-    flex-direction: column;
+    flex-direction: raw;
     align-items: center;
     justify-content: center;
     color: white;
@@ -183,13 +185,24 @@ body {
 }
 .text-quienes img{
     opacity: 0.2;
-    height: 70% ;
-    width: 80%;
+    height: 60% ;
+    width: 60%;
+    margin-left: 60px;
+    padding: 5px;
+    border-left: 4px solid ;
+    line-height: 40px;
     border-radius: 20px;
     transition: 1s;
 }
 .text-quienes img:hover{
-    opacity: 10;
-    box-shadow: white 0px 0px 50px 10px;
+    opacity: 2;
+    box-shadow: rgba(255, 255, 255, 0.286) 0px 0px 10px 2px;
     transition: 1s;
+}
+.Parrafos-Quienes{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
