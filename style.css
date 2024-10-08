@@ -14,9 +14,7 @@ header .logo img{
     height: 105px;    
     border-radius: 100px;
 }
-body{
-    
-}
+
 nav {
     display: flex;
     flex-direction: row;
@@ -60,11 +58,11 @@ nav.rojo > div > a:hover{
 
 body {
 
-    
+    width: 1920px;
+    height: 1080px;
     display: flex;
-    flex-direction: column;
-    height: 140vh;
-    width: 120%;
+    overflow-x: hidden;
+    flex-direction: column;   
     background: linear-gradient(45deg,rgb(169, 221, 241,0.15), rgba(0, 0, 0, 0.508), rgb(169, 221, 241,0.15), rgba(0, 0, 0, 0.508), rgba(0, 0, 0, 0.508),rgb(169, 221, 241,0.15));
     background-size: 200%, 200%;
     animation: gradientAnimation 18s infinite alternate;
@@ -140,13 +138,14 @@ body {
     font-size: 40px;
 }
 
-.body{
+main{
     display: flex;
-    flex-direction: row;
-    height: 100%;
-    width: 100vw;
+    flex-direction: row;    
+    width: 1920px;
+    align-items: center;
+    justify-content: center;
     background: transparent;
-    padding: 2%;
+    
 }
 .titles {
    font-family: 'Speedlimit-italic';
@@ -167,10 +166,12 @@ body {
     font-family: 'Speedlimit-bold';
     src: url('fonts/SpeedLimitDemoBold.ttf');
 }
-.quienesSomos .text-quienes{
+.quienesSomos .text-quienes,.tituloQuienes{
     
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     color: white;
     text-shadow: 0px 0px 5px red;
     text-wrap: balance;
@@ -178,7 +179,7 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
     height: 100vh;
-    width: 40%;
+    width: 90%;
     line-height: 40px;
     border-left: solid 2px;
     border-right: solid 2px;
