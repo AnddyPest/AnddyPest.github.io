@@ -176,7 +176,7 @@ body {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
-    height: 100vh;
+    height: 95vh;
     width: 90%;
     margin-bottom: 30%;
     line-height: 40px;
@@ -191,8 +191,20 @@ body {
 .tituloQuienes:hover,.text-quienes:hover{
     transition: 1.5s;
     border: 2px solid;
-    border-radius: 76px;
+    border-radius: 96px;
     border-color: cadetblue;
+    opacity: 2;
+    box-shadow: rgba(255, 255, 255, 0.286) 0px 0px 30px 2px;
+    transition: 1s;
+}
+.tituloQuienes:hover img, .text-quienes:hover img {
+    transition: 2.5s;
+    border: 2px solid;
+    border-radius: 50px;
+    border-color: cadetblue;
+    opacity: 0.9;
+    box-shadow: rgba(255, 255, 255, 0.286) 0px 0px 30px 2px;
+    transition: 1s;
 }
 .text-quienes img{
     opacity: 0.2;
