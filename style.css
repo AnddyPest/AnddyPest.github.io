@@ -1,11 +1,29 @@
-
+header {
+    
+    
+    display: flex;
+    height: 130px;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.202);
+    padding: 15px;
+   }
+header .logo img{
+    margin-top: 8px;
+    width: 105px;
+    height: 105px;    
+    border-radius: 100px;
+}
+body{
+    
+}
 nav {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     width: max-content;
-    
+
     padding: 5%;
 }
 
@@ -17,43 +35,54 @@ nav > div > a{
     transition: 1s;
     margin-left: 2vw;
     margin-right: 10vw;
-    border-bottom: 1.5px solid rgb(9, 222, 255);
+    border-bottom: 1.5px solid rgb(9, 79, 255);
     font-family: 'Speedlimit-italic';
 }
 nav.azul > div > a:hover{
-    font-size: 50px;
+    font-size: 32px;
     color:rgb(255, 255, 255);
-    border-bottom: 1px double rgb(255, 255, 9);
-    transition: 0.8s;
+    border-bottom: 1px double rgb(9, 222, 255);
+    transition: 0.7s;
     font-family: 'Speedlimit-bold';
-    text-shadow: 2px 2px 5px red;
+    text-shadow: 2px 2px 5px rgb(1, 171, 160);
 }
 nav.rojo > div > a:hover{
-    font-size: 50px;
+    font-size: 40px;
     color:rgb(255, 255, 255);
-    border-bottom: 1px double rgb(255, 255, 9);
+    border-bottom: 1px double rgb(9, 222, 255);
     transition: 0.8s;
     font-family: 'Speedlimit-bold';
     text-shadow: 2px 2px 10px rgb(169, 221, 241);
 }
 
-body{
-    margin: 0;
-}
 
 
-.flex-container {
+
+body {
+
+    
     display: flex;
     flex-direction: column;
     height: 140vh;
     width: 120%;
-    background: linear-gradient(45deg,rgb(169, 221, 241), black, rgb(144, 199, 144), black, rgb(169, 221, 241), black, rgb(144, 199, 144));
+    background: linear-gradient(45deg,rgb(169, 221, 241,0.15), rgba(0, 0, 0, 0.508), rgb(169, 221, 241,0.15), rgba(0, 0, 0, 0.508), rgba(0, 0, 0, 0.508),rgb(169, 221, 241,0.15));
     background-size: 200%, 200%;
     animation: gradientAnimation 18s infinite alternate;
     animation-fill-mode: both;
     
+    position: relative;
+    margin: 0;
+    background-color: black;
     
-    
+}
+@keyframes gradientAnimation {
+    0%{
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+
 }
 .flex-containerPlanes {
     display: flex;
@@ -68,31 +97,10 @@ body{
     
     
 }
-@keyframes gradientAnimation {
-    0%{
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-
-}
 
 
-.header {
-    display: flex;
-    height: 130px;
-    justify-content: flex-start;
-    align-items: center;
-    
-    padding: 15px;
-   }
-.header .logo img{
-    margin-top: 8px;
-    width: 140px;
-    height: 140px;    
-    border-radius: 100px;
-}
+
+
 .titulo {
     font-family: 'Speedlimit-italic';
     padding: 20px;
@@ -101,7 +109,7 @@ body{
 .titulo h1.azul{
     color: whitesmoke; 
     font-family: 'Speedlimit'; 
-    text-shadow: 2px 2px 5px red;
+    text-shadow: 2px 2px 5px rgb(0, 170, 255,0.2);
 }
 .titulo h1.rojo{
     color: whitesmoke; 
@@ -110,19 +118,21 @@ body{
 }
 
 .quienesSomos{
+    
+    z-index: 1;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: -50px; 
+    margin-top: 50px; 
     
 }
-.quienesSomos > h3{
+.quienesSomos > h1{
     font-size: 55px;
-    rotate: 180deg;
+    
     font-family: 'Speedlimit-bold';    
     color: whitesmoke; 
-    writing-mode: vertical-rl; 
+    
     letter-spacing: 6px; 
     text-shadow: 2px 2px 5px red;
 }
@@ -157,7 +167,7 @@ body{
     font-family: 'Speedlimit-bold';
     src: url('fonts/SpeedLimitDemoBold.ttf');
 }
-.text-quienes{
+.quienesSomos .text-quienes{
     
     display: flex;
     flex-direction: column;
