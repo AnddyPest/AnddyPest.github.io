@@ -1,3 +1,7 @@
+h1{
+    color: white 2px;
+    font-size: 150px;
+}
 header {
     
     
@@ -162,7 +166,7 @@ body {
     src: url('fonts/SpeedLimitDemoBold.ttf');
 }
 .quienesSomos .text-quienes,.tituloQuienes{
-    
+    transition: 2s;
     display: flex;
     flex-direction: raw;
     align-items: center;
@@ -175,6 +179,7 @@ body {
     font-size: 20px;
     height: 100vh;
     width: 90%;
+    margin-bottom: 30%;
     line-height: 40px;
     border-left: solid 2px;
     border-right: solid 2px;
@@ -182,6 +187,13 @@ body {
     padding-left: 1%;
     align-items: center;
     justify-content: center;
+}
+
+.tituloQuienes:hover,.text-quienes:hover{
+    transition: 1.5s;
+    border: 2px solid;
+    border-radius: 76px;
+    border-color: cadetblue;
 }
 .text-quienes img{
     opacity: 0.2;
