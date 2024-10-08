@@ -1,0 +1,151 @@
+h1{
+    color: white 2px;
+    font-size: 150px;
+}
+li{
+    list-style: none;
+}
+header {
+    
+    
+    display: flex;
+    height: 130px;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.202);
+    padding: 15px;
+   }
+header .logo img{
+    margin-top: 8px;
+    width: 105px;
+    height: 105px;    
+    border-radius: 100px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: max-content;
+
+    padding: 5%;
+}
+
+
+nav > div > a{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 30px;
+    transition: 1s;
+    margin-left: 2vw;
+    margin-right: 10vw;
+    border-bottom: 1.5px solid rgb(9, 79, 255);
+    font-family: 'Speedlimit-italic';
+}
+nav > div > a:hover{
+    font-size: 32px;
+    color:rgb(255, 255, 255);
+    border-bottom: 1px double rgb(9, 222, 255);
+    transition: 0.7s;
+    font-family: 'Speedlimit-bold';
+    text-shadow: 2px 2px 5px rgb(1, 171, 160);
+}
+
+
+
+
+
+body {
+    /*todo: el height no va, a medida que se van agregando divs se va a acomodar el fondo*/
+    height: 1080px;
+    width: 1920px;    
+    display: flex;
+    overflow-x: hidden;
+    flex-direction: column;   
+    background: linear-gradient(45deg,rgb(169, 221, 241,0.15), rgba(0, 0, 0, 0.508), rgb(169, 221, 241,0.15), rgba(0, 0, 0, 0.508), rgba(0, 0, 0, 0.508),rgb(169, 221, 241,0.15));
+    background-size: 200%,200%;
+    animation: gradientAnimation 18s infinite alternate;
+    animation-fill-mode: both;
+    
+    position: relative;
+    margin: 0 ;
+    background-color: black;
+    
+}
+@keyframes gradientAnimation {
+    0%{
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+
+}
+.titulo {
+    font-family: 'Speedlimit-italic';
+    padding: 20px;
+    margin-right: 60px;
+}
+
+.titles {
+   font-family: 'Speedlimit-italic';
+    
+    
+    color: rgb(191, 249, 249);
+}
+@font-face {
+    font-family: 'Speedlimit';
+    src: url('fonts/SpeedLimitDemoRegular.ttf');
+    
+}
+@font-face {
+    font-family: 'Speedlimit-italic';
+    src: url('fonts/SpeedLimitDemoItalic.ttf');
+}
+@font-face {
+    font-family: 'Speedlimit-bold';
+    src: url('fonts/SpeedLimitDemoBold.ttf');
+}
+
+.footerCompleto{
+    transition: 3s;
+    width: 1920px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.202);
+    padding: 15px;
+}
+.footerCompleto img{
+    width: 97px;
+    height: 97px;
+}
+.footerCompleto:hover{
+    transition: 3s;
+    border-top: 1.5px solid;
+    border-color: cadetblue;
+    box-shadow: rgba(255, 255, 255, 0.057) 0px -15px 15px 0px;
+    
+}
+.footerCompleto:hover img {
+    cursor: pointer;
+}
+.categoria ul{
+    padding: 0px;
+    margin: 0 ;
+    display: flex;
+    flex-direction: row;
+}
+.categoria li{
+    margin-right: 20px;
+}
+
+.derechos{
+    color: rgba(255, 255, 255, 0.401);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.202);
+    
+}
