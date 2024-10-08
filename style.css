@@ -132,11 +132,10 @@ body {
     text-shadow: 2px 2px 5px red;
 }
 #tituloInternet,#Oficinas{
-    font-size: 40px;
-}
-#Oficinas{
+    font-size: 50px;
     margin-left: 20px;
 }
+
 .SeccionQuienes{
     display: flex;
     flex-direction: row;    
