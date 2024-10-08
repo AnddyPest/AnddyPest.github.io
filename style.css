@@ -36,7 +36,7 @@ nav > div > a{
     border-bottom: 1.5px solid rgb(9, 79, 255);
     font-family: 'Speedlimit-italic';
 }
-nav.azul > div > a:hover{
+nav > div > a:hover{
     font-size: 32px;
     color:rgb(255, 255, 255);
     border-bottom: 1px double rgb(9, 222, 255);
@@ -44,14 +44,7 @@ nav.azul > div > a:hover{
     font-family: 'Speedlimit-bold';
     text-shadow: 2px 2px 5px rgb(1, 171, 160);
 }
-nav.rojo > div > a:hover{
-    font-size: 40px;
-    color:rgb(255, 255, 255);
-    border-bottom: 1px double rgb(9, 222, 255);
-    transition: 0.8s;
-    font-family: 'Speedlimit-bold';
-    text-shadow: 2px 2px 10px rgb(169, 221, 241);
-}
+
 
 
 
@@ -59,7 +52,7 @@ nav.rojo > div > a:hover{
 body {
 
     width: 1920px;
-    height: 1080px;
+    
     display: flex;
     overflow-x: hidden;
     flex-direction: column;   
@@ -138,7 +131,7 @@ body {
     font-size: 40px;
 }
 
-main{
+.SeccionQuienes{
     display: flex;
     flex-direction: row;    
     width: 1920px;
