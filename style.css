@@ -234,7 +234,7 @@ body {
 }
 
 .footerCompleto{
-    
+    transition: 3s;
     width: 1920px;
     display: flex;
     justify-content: center;
@@ -245,6 +245,16 @@ body {
 .footerCompleto img{
     width: 97px;
     height: 97px;
+}
+.footerCompleto:hover{
+    transition: 3s;
+    border-top: 1.5px solid;
+    border-color: cadetblue;
+    box-shadow: rgba(255, 255, 255, 0.057) 0px -15px 15px 0px;
+    
+}
+.footerCompleto:hover img {
+    cursor: pointer;
 }
 .categoria ul{
     padding: 0px;
