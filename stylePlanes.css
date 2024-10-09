@@ -2,12 +2,13 @@ h1{
     color: white 2px;
     font-size: 40px;
 }
-li{
+
+.SectionColumnas li{
     list-style: none;
     padding-left: 20px;
     position: relative;
 }
-li ::before{
+.SectionColumnas li ::before{
     content: '•';
     color: rgba(5, 188, 255, 0.698);
     position: absolute;
@@ -147,6 +148,7 @@ body {
 }
 .categoria li{
     margin-right: 20px;
+    list-style: none;
 }
 
 .derechos{
