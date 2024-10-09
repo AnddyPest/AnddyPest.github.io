@@ -1,9 +1,17 @@
 h1{
     color: white 2px;
-    font-size: 150px;
+    font-size: 40px;
 }
 li{
     list-style: none;
+    padding-left: 20px;
+    position: relative;
+}
+li ::before{
+    content: '•';
+    color: white;
+    position: absolute;
+    left: 0;
 }
 header {
     
@@ -58,7 +66,7 @@ nav > div > a:hover{
 
 body {
     /*todo: el height no va, a medida que se van agregando divs se va a acomodar el fondo*/
-    height: 1080px;
+   
     width: 1920px;    
     display: flex;
     overflow-x: hidden;
@@ -148,4 +156,29 @@ body {
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.202);
     
+}
+.Planes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    border: 1px solid white;
+    width: 1920px;
+    height: 1080px;
+}
+.Planes .columnas h1{
+    color: white ;
+    font-size: 40px;
+}
+.Planes .columnas p{
+    color: white;
+    font-size: 30px;
+}
+.columnas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 1000px;
+    border: 1px solid white;
 }
