@@ -9,7 +9,7 @@ li{
 }
 li ::before{
     content: '•';
-    color: white;
+    color: rgba(5, 188, 255, 0.698);
     position: absolute;
     left: 0;
 }
@@ -167,8 +167,8 @@ body {
     height: 1080px;
 }
 .Planes .columnas h1{
-    color: white ;
-    font-size: 40px;
+    font-size: 50px;
+    
 }
 .Planes .columnas p{
     color: white;
@@ -178,7 +178,31 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 600px;
-    height: 1000px;
-    border: 1px solid white;
+    color: white ;
+    width: 550px;
+    height: 550px;
+    transition: 1s;
+    border: 1px solid rgba(5, 188, 255, 0.698);
+    margin-right: 40px;
+    border-radius: 30px;
+
+}
+.columnas:hover{
+    transition: 1s;
+    width: 630px;
+    height: 630px;
+}
+.columnas:hover,h1{
+    font-size: 50px;
+}
+
+.columnas .titulos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    background-color: rgba(5, 188, 255, 0.414);
+    border-radius: 20px;
+    text-align: center;
 }
