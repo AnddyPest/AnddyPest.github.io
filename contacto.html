@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
@@ -7,12 +8,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Contacto</title>
     <link rel="stylesheet" href="StyleContactos.css">
+    <script src="validatecontacto.js" defer></script>       
 </head>
+
 <body>
     <header>
         <div class="logo">
-            <img src="imagenes/Logo.jpg"  alt="logo" >             
-            
+            <img src="imagenes/Logo.jpg" alt="logo">
+
         </div>
         <div class="navv">
             <nav>
@@ -26,33 +29,56 @@
                     <a href="contacto.html">CONTACTO</a>
                 </div>
             </nav>
-        </div> 
+        </div>
     </header>
-                    
-        
-    
+
+
+
     <main>
-        
-        
+        <form action="consultas" novalidate>
+            <div>
+                <h2>Haga su consulta, nos comunicaremos con usted a la brevedad.</h2>
+            </div>
+            <div>
+                <label for="nameSurname">Nombre y Apellido</label>
+                <input type="text" id="nameSurname" name="nameSurname">
+            </div>
+            <div>
+                <label for="telefono">Telefono de Contacto</label>
+                <input type="tel" id="telefono" name="telefono">
+            </div>
+            <div>
+                <label for="email">E - Mail</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div>
+                <label for="consulta">Consulta</label>
+                <input type="text" id="consulta" name="consulta">
+            </div>
+            <div>
+                <button class="button" type="submit">Enviar Consulta</button>
+            </div>
+        </form>
     </main>
-                        
-                        
-    
-    
+
+
+
+
     <footer>
         <div class="footerCompleto">
             <div class="categoria">
                 <ul>
-                    <li><a href=""><img src="imagenes/instagram.png" alt="Instagran"></a></li>                                               
+                    <li><a href=""><img src="imagenes/instagram.png" alt="Instagran"></a></li>
                     <li><a href=""><img id="tw" src="imagenes/pajaritoTwitter.png" alt="X"></a></li>
                     <li><a href=""><img src="imagenes/facebook97.png" alt="Facebook"></a></li>
-                </ul>                
+                </ul>
             </div>
-                        
-        </div>    
+
+        </div>
         <div class="derechos">
             <p>&copy; 2024 FastInternet. Todos los derechos reservados.</p>
-        </div>    
+        </div>
     </footer>
 </body>
+
 </html>
