@@ -149,3 +149,40 @@ body {
     background-color: rgba(0, 0, 0, 0.202);
     
 }
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1%;
+
+}
+
+.formulario {
+    display: flex;
+    align-items: top;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white ;
+    width: fit-content;
+    height: fit-content;
+    transition: 1s;
+    border: 1px solid rgba(5, 188, 255, 0.698);
+    border-radius: 60px;
+    padding: 2%;
+    padding-top: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+}
+
+.formulario .top {
+    padding: 3%;
+    padding-top: 0;
+    padding-bottom: 1%;
+    text-shadow: 2px 2px 5px rgb(1, 171, 160);
+}
+
+.formulario .imput {
+    padding-bottom: 1%;
+
+}
