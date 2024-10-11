@@ -324,3 +324,9 @@ body {
 .boton:hover::before {
     transform: translate(-50%, -50%) scale(1);
 }
+
+.mensajeError {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    color: red;
+}
