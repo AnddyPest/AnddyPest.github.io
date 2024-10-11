@@ -62,7 +62,11 @@ nav > div > a:hover{
 }
 
 
-
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
 body {
@@ -118,6 +122,7 @@ body {
 }
 
 .footerCompleto{
+    margin-top: 200px;
     transition: 3s;
     width: 1920px;
     display: flex;
@@ -184,6 +189,7 @@ body {
    
     width: 1920px;
     height: 900px;
+    
 }
 .columnas{
     display: flex;
@@ -248,5 +254,26 @@ body {
     left: 25%;
 }
 
-
-
+.carro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid wheat;
+    width: 1720px;
+    height: 900px;
+    margin-top: 47px;
+    margin-bottom: 220px;
+}
+.imagen{    
+    height: 100%;
+    width: 100%;
+   
+}
+.imagen img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;    
+    border-radius: 50px;
+    border-left: 2px solid rgba(5, 188, 255, 0.698);
+    border-right: 2px solid rgba(5, 188, 255, 0.698);;
+}
