@@ -7,8 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Nuestros Planes</title>
     <link rel="stylesheet" href="stylePlanes.css">
+    <script defer src="carroucel.js"></script>
 </head>
-<body>
+<body onload="inicializarPagina() ">
     
     <header>
         <div class="logo">
@@ -36,14 +37,15 @@
         <div class="carro">
             <div class="imagen">
                 <div class="boton">
-                    <button><</button>
+                    <button id="botonIzquierdo" onclick="cambiarImagenIzquierda()"><</button>
                 </div>
-                <img src="imagenes/MCLAREN.jpg" alt="" id="imagen">
+                <img src="imagenes/williams2.jpg" alt="" id="imagen">
                 <div class="boton">
-                    <button>></button>
+                    <button id="botonDerecho" onclick="cambiarImagenDerecha()">></button>
                 </div>
             </div>
         </div>
+        
 
     </main>
     
@@ -135,4 +137,5 @@
         </div>    
     </footer>
 </body>
+
 </html>
