@@ -259,7 +259,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid wheat;
+    
     width: 1880px;
     height: 900px;
     margin-top: 47px;
@@ -296,8 +296,9 @@ body {
 }
 .imagen .boton:hover button{
     font-size: 50px;
-    height: 75px;
-    width: 50px;
-    transition: 0.5s;
-    box-shadow: white 0px 0.4px 5px 0px;
+    height: 95px;
+    width: 60px;
+    transition: 1s;
+    
+    border-radius:25px;
 }
