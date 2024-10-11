@@ -240,7 +240,7 @@ body {
     text-shadow: 2px 2px 5px rgb(1, 171, 160);
 }
 
-.formulario .boxes>input {
+.formulario .boxes>input{
     width: 700px;
     height: 35px;
     margin-left: 10%;
@@ -257,6 +257,32 @@ body {
 }
 
 .formulario .boxes>input:hover {
+    transition: 1.5s;
+    border-bottom: 2px solid;
+    border-radius: 15px;
+    border-color: cadetblue;
+    opacity: 2;
+    box-shadow: rgba(255, 255, 255, 0.286) 0px 0px 30px 2px;
+    transition: 1s;
+}
+
+.formulario .boxes>textarea{
+    width: 700px;
+    height: 35px;
+    margin-left: 10%;
+    margin-bottom: 2%;
+    border: none;
+    border-bottom: 2px solid rgba(5, 188, 255, 0.698);
+    border-radius: 15px;
+    background-color: transparent;
+    color: white;
+    text-shadow: 2px 2px 5px rgb(1, 171, 160);
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.formulario .boxes>textarea:hover {
     transition: 1.5s;
     border-bottom: 2px solid;
     border-radius: 15px;
@@ -329,4 +355,17 @@ body {
     font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
     color: red;
+}
+
+#contactos {
+    display: none;
+    padding: 5%;
+    color: rgb(191, 249, 249);
+    font-size:20px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
+#contactos>h1 {
+    font-size: 30px;
+    font-family: 'Speedlimit-bold';
 }
