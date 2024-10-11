@@ -24,36 +24,41 @@ function cambiarImagenDerecha() {
 }
 
 function actualizarImagenYEstilos() {
-    imagen.setAttribute("src", rutas[indice]);
-
-   
-    imagen.classList.remove("imagenWilliams", "imagenFerrari", "imagenMcLaren", "imagenRedBull");
-    botonIzquierdo.classList.remove("botonWilliams", "botonFerrari", "botonMcLaren", "botonRedBull");
-    botonDerecho.classList.remove("botonWilliams", "botonFerrari", "botonMcLaren", "botonRedBull");
+    imagen.classList.add("fade-out")
+    setTimeout(() => {
+        imagen.setAttribute("src", rutas[indice]);
 
     
-    switch (indice) {
-        case 0:
-            imagen.classList.add("imagenWilliams");
-            botonIzquierdo.classList.add("botonWilliams");
-            botonDerecho.classList.add("botonWilliams");
-            break;
-        case 1:
-            imagen.classList.add("imagenMcLaren");
-            botonIzquierdo.classList.add("botonMcLaren");
-            botonDerecho.classList.add("botonMcLaren");
-            break;
-        case 2:
-            imagen.classList.add("imagenRedBull");
-            botonIzquierdo.classList.add("botonRedBull");
-            botonDerecho.classList.add("botonRedBull");
-            break;
-        case 3:
-            imagen.classList.add("imagenFerrari");
-            botonIzquierdo.classList.add("botonFerrari");
-            botonDerecho.classList.add("botonFerrari");
-            break;
+        imagen.classList.remove("imagenWilliams", "imagenFerrari", "imagenMcLaren", "imagenRedBull");
+        botonIzquierdo.classList.remove("botonWilliams", "botonFerrari", "botonMcLaren", "botonRedBull");
+        botonDerecho.classList.remove("botonWilliams", "botonFerrari", "botonMcLaren", "botonRedBull");
+
         
-        
-    }
+        switch (indice) {
+            case 0:
+                imagen.classList.add("imagenWilliams");
+                botonIzquierdo.classList.add("botonWilliams");
+                botonDerecho.classList.add("botonWilliams");
+                break;
+            case 1:
+                imagen.classList.add("imagenMcLaren");
+                botonIzquierdo.classList.add("botonMcLaren");
+                botonDerecho.classList.add("botonMcLaren");
+                break;
+            case 2:
+                imagen.classList.add("imagenRedBull");
+                botonIzquierdo.classList.add("botonRedBull");
+                botonDerecho.classList.add("botonRedBull");
+                break;
+            case 3:
+                imagen.classList.add("imagenFerrari");
+                botonIzquierdo.classList.add("botonFerrari");
+                botonDerecho.classList.add("botonFerrari");
+                break;
+            
+            
+        }
+        imagen.classList.remove("fade-out");
+    },1000)
+    
 }
