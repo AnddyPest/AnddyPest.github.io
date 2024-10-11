@@ -299,7 +299,8 @@ body {
     transition: 2s ease;
     border:3px ridge #149CEA ;
     box-shadow: rgba(255, 255, 255, 0.286) 0px 0px 50px 2px;
-    text-shadow: 2px 2px 5px rgb(1, 171, 160);;
+    text-shadow: 2px 2px 5px rgb(1, 171, 160);
+    font-size: 30px;
     
    
 }
