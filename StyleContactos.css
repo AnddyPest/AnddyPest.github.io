@@ -155,6 +155,7 @@ body {
     justify-content: center;
     align-items: center;
     padding-bottom: 1%;
+    
 
 }
 
@@ -164,7 +165,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     color: white ;
-    width: fit-content;
+    width: 40%;
     height: fit-content;
     transition: 1s;
     border: 1px solid rgba(5, 188, 255, 0.698);
@@ -181,14 +182,19 @@ body {
     padding-top: 0;
     padding-bottom: 1%;
     text-shadow: 2px 2px 5px rgb(1, 171, 160);
-    width: 70%;
+    width: 100%;
 }
 
 .formulario .boxes {
     display: flex;
     flex-direction: column;
     padding-bottom: 1%;
+    width: 100%;
 
+}
+
+.formulario>form {
+    width: 70%;
 }
 
 .formulario .boxes>label {
@@ -201,4 +207,11 @@ body {
     width: 60%;
     margin-left: 10%;
     margin-bottom: 2%;
+}
+
+.boton {
+    width: 70%;
+}
+.formulario>button {
+    width: 70%;
 }
