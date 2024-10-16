@@ -235,7 +235,7 @@ body {
 
 .nuestrosPlanes h1 {
     position: relative;
-    padding-bottom: 20px; /* Ajusta según sea necesario */
+    padding-bottom: 20px; 
 }
 
 
@@ -245,14 +245,14 @@ body {
     left: 0;
     width: 100%;
     top:100%;
-    border-bottom: 2px solid rgba(5, 188, 255, 0.698); /* Línea superior */
+    border-bottom: 2px solid rgba(5, 188, 255, 0.698); 
     
 }
 .nuestrosPlanes h1::after {
     top: 100%;
     width: 50%;
-    border-bottom: 2px solid rgba(5, 188, 255, 0.698); /* Línea inferior más pequeña */
-    transform: translateY(16px); /* Ajusta la distancia entre las líneas */
+    border-bottom: 2px solid rgba(5, 188, 255, 0.698); 
+    transform: translateY(16px);
     left: 25%;
 }
 .partners{
