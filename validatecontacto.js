@@ -25,7 +25,7 @@ document.getElementById('formulario').addEventListener('submit', function (event
         bandera = true;
         const errorSpan = document.getElementById('errorTelefono');
         errorSpan.style.display = 'block';
-        errorSpan.innerHTML = '*El teléfono de contacto no puede quedar vacío.';
+        errorSpan.innerHTML = '*El teléfono debe ser un número y no puede estar vacío.';
     }
 
     if (mail === '' || !/^[^\s@]{5,}@[^\s@]{4,}\.(com|gob|gov|org|edu)(\.[a-z]{2})?$/.test(mail)) {
