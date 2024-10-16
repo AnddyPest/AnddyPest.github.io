@@ -223,9 +223,11 @@ body {
     display: flex;
     flex-direction: column;
     padding-bottom: 1%;
-    
-    width: 100%;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
     margin-top: 5%;
+    padding: 2%;
 
 }
 
@@ -358,6 +360,7 @@ body {
     font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
     color: red;
+    
 }
 
 #contactos {
