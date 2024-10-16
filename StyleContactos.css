@@ -61,7 +61,7 @@ nav>div>a:hover {
 
 body {
     /*todo: el height no va, a medida que se van agregando divs se va a acomodar el fondo*/
-    height: 1080px;
+    
     width: 1920px;
     display: flex;
     overflow-x: hidden;
