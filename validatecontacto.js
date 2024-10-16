@@ -28,7 +28,7 @@ document.getElementById('formulario').addEventListener('submit', function (event
         errorSpan.innerHTML = '*El teléfono debe ser un número y no puede estar vacío.';
     }
 
-    if (mail === '' || !/^[^\s@]{5,}@[^\s@]{4,}\.(com|gob|gov|org|edu)(\.[a-z]{2})?$/.test(mail)) {
+    if (mail === '' || !/^[^\s@]{5,}@[^\s@]{4,}\.(com|gob|gov|org|edu)(\.[A-Za-z]{2})?$/i.test(mail)) {
         bandera = true;
         const errorSpan = document.getElementById('errorEmail');
         errorSpan.style.display = 'block';
